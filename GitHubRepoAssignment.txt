@@ -1,0 +1,40 @@
+Seths-MacBook-Pro:~ Sondenaa$ cd ~/Desktop/DojoAssignments
+Seths-MacBook-Pro:DojoAssignments Sondenaa$ mkdir GitHubAssignment
+Seths-MacBook-Pro:DojoAssignments Sondenaa$ cd GitHubAssignment
+Seths-MacBook-Pro:GitHubAssignment Sondenaa$ git init
+Initialized empty Git repository in /Users/Sondenaa/Desktop/DojoAssignments/GitHubAssignment/.git/
+Seths-MacBook-Pro:GitHubAssignment Sondenaa$ touch commands.txt
+Seths-MacBook-Pro:GitHubAssignment Sondenaa$ rm commands.txt
+Seths-MacBook-Pro:GitHubAssignment Sondenaa$ touch GitHubRepoAssignment.txt
+Seths-MacBook-Pro:GitHubAssignment Sondenaa$ touch readme.md
+Seths-MacBook-Pro:GitHubAssignment Sondenaa$ vi readme.md
+Seths-MacBook-Pro:GitHubAssignment Sondenaa$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	GitHubRepoAssignment.txt
+	readme.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+Seths-MacBook-Pro:GitHubAssignment Sondenaa$ git add .
+Seths-MacBook-Pro:GitHubAssignment Sondenaa$ git commit -m "GitHub Assignment completed"
+[master (root-commit) 8b745fc] GitHub Assignment completed
+ 2 files changed, 1 insertion(+)
+ create mode 100644 GitHubRepoAssignment.txt
+ create mode 100644 readme.md
+Seths-MacBook-Pro:GitHubAssignment Sondenaa$ git remote add origin https://github.com/sethsondenaa/GitHubAssignment.git
+Seths-MacBook-Pro:GitHubAssignment Sondenaa$ git push -u origin master
+Username for 'https://github.com': SethSondenaa
+Password for 'https://SethSondenaa@github.com': 
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 372 bytes | 372.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/sethsondenaa/GitHubAssignment.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
